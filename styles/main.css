@@ -1,0 +1,21 @@
+header {
+  background-color: #d2c2a1;
+  padding: 1rem;
+}
+header #nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+header #nav-wrapper ul {
+  display: flex;
+  list-style: none;
+}
+header #nav-wrapper ul li a {
+  text-decoration: none;
+}
+
+body {
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=main.css.map */
