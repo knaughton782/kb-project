@@ -1,21 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 header {
   background-color: #d2c2a1;
-  padding: 1rem;
-}
-header #nav-wrapper {
+  padding: 1rem; }
+  header #nav-wrapper {
+    display: flex;
+    justify-content: space-between; }
+    header #nav-wrapper ul {
+      display: flex;
+      list-style: none; }
+      header #nav-wrapper ul li a {
+        text-decoration: none;
+        margin: 0 25px; }
+
+.banner {
+  height: 500px;
+  background-image: url(https://images.unsplash.com/photo-1545396635-fdb4bdd02d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.one {
+  background-color: #d2c2a1;
   display: flex;
-  justify-content: space-between;
-}
-header #nav-wrapper ul {
-  display: flex;
-  list-style: none;
-}
-header #nav-wrapper ul li a {
-  text-decoration: none;
-}
+  justify-content: space-between; }
+  .one img {
+    height: auto;
+    width: 100%; }
+  .one .number1 {
+    font-size: 7em;
+    margin: -12% 0% 0% -15%;
+    color: #471828; }
+  .one .slide1-title {
+    background: #d2c2a1;
+    color: black;
+    margin: -23% 0% 3% 1%;
+    font-size: 50px;
+    z-index: 1;
+    position: relative; }
+  .one .slide1-content {
+    margin-left: 5%;
+    padding: 5%; }
+  .one button {
+    background-color: #471828;
+    color: #d2c2a1;
+    padding: 2rem; }
+
+.two {
+  background-color: #987647;
+  padding: 2rem; }
+  .two .number {
+    font-size: 7em;
+    margin: 0% 0% 0% 9%;
+    color: #471828; }
+  .two .slide2-title {
+    background: #987647;
+    color: black;
+    margin: -6% 0% 3% 13.5%;
+    font-size: 50px;
+    z-index: 1;
+    position: relative; }
+  .two .slide2-sub-title {
+    font-size: 30px;
+    margin: 0% 0% 2% 5%;
+    color: #471828; }
+  .two p {
+    margin: 0% 0% 2% 13%; }
 
 body {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 /*# sourceMappingURL=main.css.map */
